@@ -1,5 +1,5 @@
 {
-  "repo": "REPLACE_WITH_TEAM_REPO_URL",
+  "repo": "https://github.com/hasithvideomate/video-folder-template.git",
   "branch": "main",
   "note": "Shared rules/skills/docs/scripts come from this repo. Run: python3 File/scripts/update_template.py"
 }
