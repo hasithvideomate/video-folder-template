@@ -89,8 +89,12 @@ class UpdateTests(unittest.TestCase):
         self.assertFalse((self.project / 'AGENTS.md').exists())
 
     def test_master_never_pulls_into_itself(self):
-        (self.project / '.git').mkdir()
+        self.write(self.project, 'File/.template_master', 'master working copy')
         self.assertEqual(up.update(run_tests=False)['status'], 'master')
+
+    def test_cloned_project_with_git_still_updates(self):
+        (self.project / '.git').mkdir()
+        self.assertEqual(up.update(run_tests=False)['status'], 'updated')
 
 
 if __name__ == '__main__': unittest.main()

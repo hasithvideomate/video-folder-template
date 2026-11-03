@@ -50,9 +50,14 @@ def git(*args, cwd=None):
                           timeout=120).stdout.strip()
 
 
+MASTER_MARKER = 'File/.template_master'
+
+
 def is_master():
-    """The master working copy publishes; it never pulls into itself."""
-    return (ROOT / '.git').exists()
+    """The master working copy (marked by an untracked, gitignored file) publishes; it never pulls into itself.
+
+    A project cloned from the repo has .git too, so .git alone does not identify the master."""
+    return (ROOT / MASTER_MARKER).exists()
 
 
 def fetch_source(config):
