@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Premiere MCP Integration"
+  short_description: "Connect local planning with Premiere automation"
+  default_prompt: "Use $frame-mcp-integration for this local project while preserving its source and approvals."

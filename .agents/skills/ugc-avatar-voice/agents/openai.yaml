@@ -1,0 +1,4 @@
+interface:
+  display_name: "UGC Avatar Voice"
+  short_description: "Design original voices and plan supported binding"
+  default_prompt: "Use $ugc-avatar-voice for this local project while preserving its source and approvals."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Production Director"
+  short_description: "Coordinate local planning, generation and editing"
+  default_prompt: "Use $production-director to inspect this local project and continue its next step."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "B-roll Director"
+  short_description: "Plan realistic product and physical-action shots"
+  default_prompt: "Use $broll-director to inspect this local project and continue its next step."

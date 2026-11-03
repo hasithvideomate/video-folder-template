@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Project Memory"
+  short_description: "Save local project decisions and edit handoffs"
+  default_prompt: "Use $project-memory to inspect this local project and continue its next step."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Premiere Automation Editor"
+  short_description: "Edit local footage with Premiere automation"
+  default_prompt: "Use $premiere-edit to inspect this local project and continue its next step."

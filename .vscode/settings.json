@@ -1,0 +1,19 @@
+{
+  "files.exclude": {
+    ".agents": true,
+    ".vscode": true,
+    "AGENTS.md": true,
+    ".env*": true,
+    ".gitignore": true,
+    ".DS_Store": true,
+    "**/__pycache__": true,
+    "File/project_brief.md": true,
+    "File/.DS_Store": true,
+    "File/docs": true,
+    "File/README.md": true,
+    "File/edit_notes.md": true,
+    "File/memory.md": true,
+    "File/scripts": true,
+    "File/agents.md": true
+  }
+}

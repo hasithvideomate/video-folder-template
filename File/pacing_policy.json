@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "style": "natural_tight",
+  "required": true,
+  "pause_planner": {
+    "max_pause_seconds": 0.5,
+    "target_pause_seconds": 0.24,
+    "sentence_pause_seconds": 0.4
+  },
+  "silence_detection": {
+    "min_duration_seconds": 0.35,
+    "noise_threshold_db": -40
+  },
+  "speech_edge_handles_seconds": {
+    "before_first_word": 0.08,
+    "after_last_word": 0.12,
+    "final_ending_hold": 0.25
+  },
+  "clip_join_pause_seconds": {
+    "continuing_phrase": 0.24,
+    "sentence_boundary": 0.4
+  },
+  "unintended_timeline_gaps": "close_after_all_track_inspection",
+  "preserve_meaningful_breaths_and_emphasis": true,
+  "review_every_join_at_normal_speed": true,
+  "review_gesture_continuity": true,
+  "add_captions": false,
+  "allow_zoom_or_reframing": false,
+  "change_playback_speed": false
+}

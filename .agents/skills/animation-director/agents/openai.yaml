@@ -1,0 +1,4 @@
+interface:
+  display_name: "Animation Director"
+  short_description: "Direct continuous storyboards and animation"
+  default_prompt: "Use $animation-director to inspect this local project and continue its next step."

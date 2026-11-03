@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image Review and Validation"
+  short_description: "Inspect stills against references with evidence"
+  default_prompt: "Use $image-review-validation for this local project while preserving its source and approvals."

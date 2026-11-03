@@ -1,0 +1,4 @@
+interface:
+  display_name: "Animation Script Planning"
+  short_description: "Build source-linked animation prompt packages"
+  default_prompt: "Use $animation-script-planning for this local project while preserving its source and approvals."

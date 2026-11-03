@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Kie Generation Runner"
+  short_description: "Preview, submit once and inspect known Kie tasks"
+  default_prompt: "Use $kie-generation-runner for this local project while preserving its source and approvals."

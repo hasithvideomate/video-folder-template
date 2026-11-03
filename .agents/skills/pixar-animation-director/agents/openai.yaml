@@ -1,0 +1,4 @@
+interface:
+  display_name: "Pixar-Inspired Animation Director"
+  short_description: "Direct emotional stories, AI boards, and video shots"
+  default_prompt: "Use $pixar-animation-director to turn my idea into a story, consistent AI storyboards, and video prompts describing the shots inside each storyboard."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Animation Production Desk"
+  short_description: "Track local production gates, takes and costs"
+  default_prompt: "Use $animation-production-desk for this local project while preserving its source and approvals."

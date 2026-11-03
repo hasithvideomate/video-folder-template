@@ -1,0 +1,4 @@
+interface:
+  display_name: "iPhone Photo Look"
+  short_description: "Direct believable smartphone-photo appearance"
+  default_prompt: "Use $iphone-photo-look for this local project while preserving its source and approvals."

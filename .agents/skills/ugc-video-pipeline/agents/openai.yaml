@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local UGC Video Pipeline"
+  short_description: "Plan avatars, samples and exact-dialogue clips"
+  default_prompt: "Use $ugc-video-pipeline for this local project while preserving its source and approvals."

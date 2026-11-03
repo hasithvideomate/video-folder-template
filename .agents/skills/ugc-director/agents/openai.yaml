@@ -1,0 +1,4 @@
+interface:
+  display_name: "UGC Director"
+  short_description: "Plan exact-dialogue avatars and UGC footage"
+  default_prompt: "Use $ugc-director to inspect this local project and continue its next step."
