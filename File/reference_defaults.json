@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "model": "nano-banana-pro",
+  "resolution": "2K",
+  "referenceCapCredits": "300",
+  "likenessPermission": "standing",
+  "scope": "Standing per-project authorization for character/location/product reference sheets generated with Nano Banana Pro at 2K from user-supplied photos. No video generation, no other models, no final-export authority."
+}

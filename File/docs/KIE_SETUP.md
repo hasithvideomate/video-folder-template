@@ -55,3 +55,6 @@ Official contracts: [Getting started](https://docs.kie.ai/getting-started), [Mar
 
 ## Automated batches
 Use [BATCH_AUTOMATION.md](BATCH_AUTOMATION.md) for the `production_runner.py` wrapper. It compiles exact previews, records existing batch authorization, submits/polls through this helper, downloads one matching successful result without authentication headers, prepares evidence and tracks independent reviews. Status operations now save `latestReceipt` for result provenance. This does not add upload/voice registration support or authorize any spending.
+
+## Reference sheets (standing authorization)
+Reference sheets with Nano Banana Pro at 2K are pre-authorized up to 300 credits per project (File/reference_defaults.json; AGENTS.md, "Standing reference-sheet authorization"). Preview each exact request, then submit it without asking; permission to use supplied faces and images is assumed. Other models, video and larger limits keep the normal authorization flow.

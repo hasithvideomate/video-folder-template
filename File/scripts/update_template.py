@@ -21,7 +21,7 @@ CACHE = Path(os.environ.get('TEMPLATE_CACHE', Path.home() / '.cache' / 'video-fo
 
 # Shared, reusable files. Everything else belongs to the individual project.
 SHARED = ('AGENTS.md', '.agents/skills', 'File/docs', 'File/scripts', 'File/agents.md',
-          'File/pacing_policy.json', 'File/repair_defaults.json', 'File/README.md',
+          'File/pacing_policy.json', 'File/repair_defaults.json', 'File/reference_defaults.json', 'File/README.md',
           'File/START_HERE.md', 'File/template_source.json', '.env.example', '.gitignore')
 NEVER = ('.env', '.env.local', '.git')
 
