@@ -48,6 +48,9 @@ Carry forward reusable rules and supporting code/docs/tests. Keep project-specif
 ## User video resolution preference
 Use 720p for all video generations in this project. Never use 1080p. This applies to the first sample and subsequent clips.
 
+## User default video model
+Use Kie `google/gemini-omni-flash-1-1` (Gemini Omni Flash 1.1) for all video generations unless the user names another model for a specific job. Verify its current Kie schema and price before each new request (docs.kie.ai/market/google/gemini-omni-flash-1-1); request 720p and the project's aspect ratio. This selects the model only; it does not authorize spending.
+
 ## User performance direction
 For talking-avatar clips, map visible natural hand gestures to the exact spoken phrases and their meaning in each clip. Specify the gesture cues in every generation prompt; a generic single gesture is insufficient. Keep the complete hands/fingertips in frame, preserve the fixed camera, and review actual motion against the spoken phrases before claiming the performance matches. Use the latest user-selected avatar image as the visual authority.
 
