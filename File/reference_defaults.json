@@ -1,8 +1,14 @@
 {
-  "version": 1,
-  "model": "nano-banana-pro",
-  "resolution": "2K",
-  "referenceCapCredits": "300",
+  "version": 2,
+  "imageAllowanceCredits": "500",
+  "askAboveCredits": "500",
+  "characterSheetModel": "gpt-image-2-6/sunburst-image-to-image",
+  "characterSheetLayout": [
+    "face only, full-face front close-up",
+    "full body, front view",
+    "full body, back view"
+  ],
+  "expression": "neutral",
   "likenessPermission": "standing",
-  "scope": "Standing per-project authorization for character/location/product reference sheets generated with Nano Banana Pro at 2K from user-supplied photos. No video generation, no other models, no final-export authority."
+  "scope": "Standing per-project authorization for image generation from user-supplied photos, up to 500 credits; ask once above that. No video generation or final-export authority."
 }
